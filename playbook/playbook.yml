@@ -7,5 +7,5 @@
       - name: copy now
         copy:
           src: /home/devops/opt/code/
-          dest: /home/devops/opt
+          dest: /home/devops/opt/
 ...
