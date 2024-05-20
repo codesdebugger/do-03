@@ -6,6 +6,6 @@
     tasks:
       - name: copy now
         copy:
-          src: /home/devops/opt/code
+          src: /home/devops/opt/code/
           dest: /home/devops/opt
 ...
