@@ -5,6 +5,7 @@
     become: yes
     tasks:
       - name: copy now
-        src: /opt/code/
-        dest: /opt
+        copy:
+          src: opt/code/
+          dest: /opt
 ...
