@@ -1,0 +1,10 @@
+---
+  - name: copy files
+    hosts: all
+    connection: ssh
+    become: yes
+    tasks:
+      - name: copy now
+        src: /opt/code/
+        dest: /opt
+...
